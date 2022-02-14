@@ -14,7 +14,7 @@ Regex for IP Address
 - 2[0-4]\d catches numbers between 200 and 249.
 - 25[0-5] catches numbers between 250 and 255.
 
-[Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
+[Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 
 ****--------------------------------------------------------------****
 
@@ -38,7 +38,7 @@ Regex For remove duplicate words from sentence.
 - using \1 it matches the same text that was matched by the first capturing group
 - '+' Match 1 or more of the preceding token
 
-[Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
+[Regex Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 
 ****--------------------------------------------------------------****
 
@@ -73,7 +73,7 @@ Tags can consist of any printable characters.
 
 - . matches any character (except for line terminators)
 - + matches the previous token between one and unlimited times, as many times as possible, giving back as needed (greedy)
-- > matches the character > with index 6210 (3E16 or 768) literally (case sensitive)
+- > matches the character > with literally (case sensitive)
 
 2nd Capturing Group ([^<>]+)
 
@@ -86,3 +86,35 @@ Match a single character not present in the list below [^<>]
 - < matches the character < with index 6010 (3C16 or 748) literally (case sensitive)
 - \/ matches the character / with index 4710 (2F16 or 578) literally (case sensitive)
 - 1> matches the characters 1> literally (case sensitive)
+
+****--------------------------------------------------------------****
+
+**Example5 -- Java BigDecimal**
+
+Java's BigDecimal class can handle arbitrary-precision signed decimal numbers. Let's test your knowledge of them!
+Given an array, , of  real number strings, sort them in descending order — but wait, there's more! Each number must be printed in the exact same format as it was read from stdin, meaning that  is printed as , and  is printed as . If two numbers represent numerically equivalent values (e.g., ), then they must be listed in the same order as they were received as input).
+Complete the code in the unlocked section of the editor below. You must rearrange array 's elements according to the instructions above.
+
+****--------------------------------------------------------------****
+**Example6 -- Java Primality Test**
+
+A prime number is a natural number greater than  whose only positive divisors are  and itself. For example, the first six prime numbers are 2, 3, 5, 7, 11, and 13 .
+Given a large integer, n, use the Java BigInteger class' isProbablePrime method to determine and print whether it's prime or not prime.
+
+****--------------------------------------------------------------****
+**Example7 -- java biginteger**
+
+In this problem, you have to add and multiply huge numbers! These numbers are so big that you can't contain them in any ordinary data types like a long integer.
+Use the power of Java's BigInteger class and solve this problem.
+
+****--------------------------------------------------------------****
+**Example8 -- java 1d array introduction**
+
+
+
+****--------------------------------------------------------------****
+**MakingAnagrams -- Count Anagrams any String after deleting chars**
+A student is taking a cryptography class and has found anagrams to be very useful. Two strings are anagrams of each other if the first string's letters can be rearranged to form the second string. In other words, both strings must contain the same exact letters in the same exact frequency. For example, bacdc and dcbac are anagrams, but bacdc and dcbad are not.
+The student decides on an encryption scheme that involves two large strings. The encryption is dependent on the minimum number of character deletions required to make the two strings anagrams. Determine this number.
+Given two strings,  and , that may or may not be of the same length, determine the minimum number of character deletions required to make  and  anagrams. Any characters can be deleted from either of the strings.
+ 
